@@ -1,0 +1,316 @@
+ @font-face {
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+ }
+
+ body{
+    margin: 0px;
+}
+
+.header{
+    width: 88%;
+    background-color: black;
+    padding: 10px 100px;
+
+ }
+ .logo>img{
+    width: 40%;
+ }
+
+ .menu>li{
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+}
+.right-side{
+    color:white;
+}
+
+.logo,.right-side{
+    display: inline-block
+}
+
+.logo{
+    width: 30%;
+    vertical-align: middle;
+}
+
+.right-side{
+    width: 68%;
+     vertical-align: baseline;
+}
+
+.btn>button{
+    border: none;
+    color:white;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.btn-one{
+    background-color: transparent;
+    color: white;
+    border: 1px solid !important; 
+    margin-top: 20px;
+}
+
+.btn-two{
+    background-color: red;
+    border: 1px solid red !important;
+    color: white;
+}
+
+.menu{
+    display: inline-block;
+}
+
+.btn{
+    display: inline-block;
+}
+.right-side{
+    margin: -40px;
+}
+.btn-two>i{
+    background-color: white;
+    color: rgb(222, 12, 12);
+    padding: 0px 3px;
+    border-radius: 50px;
+    margin: 3px;
+}
+img{
+    padding: 40px -1px 0px 120px;
+
+
+}
+
+.slide{
+    width: 100%;
+}
+
+.intro{
+    width: 103%;
+    background-color: black;
+    color: white;
+}
+.content{
+    text-align: center;
+    padding: 30px;
+    margin-top: -6px;
+}
+ 
+.content> h2 > span {
+    font-size: 37px;
+    font-family:futurak;
+    src: url(fonts/futurak.ttf);
+}
+.cards-logo{
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    padding: 30px 20px;
+}
+.cards-logo > img{
+    width: 100%;
+}
+.card-btn > button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 37px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+}
+.card-btn{
+    width: 250px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.card-container{
+    text-align: center;
+}
+
+.cards{
+    display: inline-block;
+}
+.cards-logo-center{
+    margin: 0px 20px; 
+    background-color: rgb(255, 251, 251);
+    padding: 53px  20px 2px 20px;
+}
+.bottom{
+    background-color: black;
+    color: brown;
+}
+
+.bottom-content>h1{
+    font-size:52px;
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+    background-color: black;
+    color: white;
+    margin-top: 56px;
+}
+.bottom-content >h2{
+    font-size: 48px;
+    background-color: black;
+    color: white;
+    margin:0px 0px 8px;
+    line-height: 80px;
+    padding: 0px 30px -0px 0px;
+
+}
+.bottom-content>p{
+    background-color: black;
+    color: rgb(255, 225, 225);
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    padding: 2px 20px; 
+}
+.f-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 140px;
+    padding: 30px 0px 0px 40px;
+    background-color: black;
+    color: white;
+   
+}
+.f-address>h5{
+    margin-top: -1px;
+    padding: 40px 20px 20px 90px ;
+}
+.f-address>h5{
+    color: red;
+    letter-spacing: 7px;
+    padding: 15px 0px 23px 83px;
+}
+
+.f-address>h2{
+    text-align: center;
+    padding: 0px 15px 20px 68px;
+}
+
+.f-address>h2>span{
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+    padding: 0px 0px 10px 2px;
+}
+.f-address{
+    width: 431px;
+    padding: 10px 0px 90px 0px;
+}
+
+.f-address>p{
+    padding: 0px 0px 30px 80px;
+}
+
+img{
+    padding: -px 40px 40px 40px;
+}
+
+.fa-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 140px;
+    padding: 30px 0px 0px 40px;
+    background-color: black;
+    color: white;
+    text-align: right;
+   
+}
+.fa-image.id{
+    0px 0px 0px 114px
+    
+}
+
+.fa-container{
+    background-color: black;
+    display: grid;
+    align-items: right;
+    grid-template-columns: 1fr 1fr ;
+    text-align: left;
+}
+
+.fa-address>h5{
+    margin-top: -1px;
+    padding: 30px 165px 30px 0px;
+    text-align: right;
+
+}
+.fa-address>h5{
+    text-align: left;
+    color: red;
+    letter-spacing: 7px;
+    padding:30px 165px 30px 0px;
+}
+
+.fa-address>h2{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.fa-address>h2>span{
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+    padding: 0px 0px 10px 2px;
+}
+.fa-address{
+    text-align: left;
+    width: 431px;
+    padding: 10px 0px 90px 0px;
+}
+
+.fa-address>p{
+    text-align: left;
+    padding: 0px 0px 30px 5px;
+}
+.fa-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px;
+    border-radius: 50;
+    padding: 22px 32px 20px 100px;
+}
+
+.fa-btnn-onee>button{
+    border: none;
+    color:white;
+    padding: 15px 20px;
+    border-radius: 50px;
+
+}
+
+.fa-btnn-onee{
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 50px;
+    margin: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+}
+
+.fa-btnn-twoo>button{
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+span.fa-btnn-twoo{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important; 
+
+}
+
+.all-fr>futu{
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
