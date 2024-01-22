@@ -444,10 +444,75 @@ img{
     color: white;
     width: 100%;
     height: auto;
-    text-align: center;
     margin: -25px 0px 0px 0px;
 }
 
-.footer-main-container>h2{
+.footer-logo>img{
+    display: inline-block;
+    width: 250px;
+}
+
+/* .footer-end{    
+    background-color: black;
+    color: white;
+    display: grid;
+    width: 100%;
+    gap: 30px 45px;
+    padding-bottom: 55px;
+    vertical-align: bottom;
+}
 
 }
+
+.footer-end>img{
+    display: inline-block;
+    width: 150px;
+    margin: 140px;
+}
+
+.footer-end>p{
+    color: white;
+    margin:  -50px 0px 100px 140px;
+    font-size: small;
+}
+
+
+.footer-center>.footer-link-center{
+    display: inline-block;
+}
+
+.footer-mid-center>,.footer-link-mid{
+    display: inline-block;
+}
+
+.footer-right-side>,.footer-link-right{
+    display: inline-block;
+} */ 
+
+
+body{
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background-color: #121b25;
+    color: white;
+}
+
+section{
+    padding: 80px 5% 70px;
+}
+
+.footer-content-1{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 39px;
+    margin-right: 44px;
+    font-size: small;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around; 
+    background-color: #1a242f;
+}
+
