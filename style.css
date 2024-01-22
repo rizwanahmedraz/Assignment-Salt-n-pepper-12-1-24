@@ -316,10 +316,12 @@ img{
 
 .g-f-addres{
     width: 50%;
+    height: 284px;
     background-color: black;
     color: white;
     padding: 50px;
     margin-right: 7px;
+
 }
 
 .g-f-addres>small{
@@ -340,7 +342,7 @@ img{
 
 .g-f-addres>button{
     background-color: green;
-    color: black;
+    color: white;
     margin-top: 15px;
     padding: 10px;
     border: 1px solid !important;
@@ -352,4 +354,87 @@ img{
     padding: 10px;
     border: 1px solid !important;
     border-radius: 35px;
+}
+
+
+.box-main-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: 20px 15px 15px 0px;
+    align-items: center;
+}
+
+.box-one>h1{
+    text-align: center;
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+
+.box-one>h2{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.location-box-1{
+    display: inline-block;
+    width: 280px;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin: auto;
+    margin-bottom: 32px;
+    color: black;
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
+
+.location-box-two{
+    display: inline-block;
+    width: 280px;
+    height: 230px;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin: auto;
+    margin-bottom: 32px;
+    color: black;
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
+
+.location-box-three{
+    display: inline-block;
+    width: 280px;
+    height: 230px;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin: auto;
+    margin-bottom: 32px;
+    color: black;
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
+
+
+.box-main-container{
+    display: flex;
+    flex-flow: column;
 }
