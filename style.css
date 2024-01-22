@@ -337,3 +337,19 @@ img{
     display: flex;
     justify-content: space-around;
 }
+
+.g-f-addres>button{
+    background-color: green;
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid !important;
+    border-radius: 35px;
+}
+.g-f-addres>button>i{
+    background-color: white;
+    color:green;
+    padding: 10px;
+    border: 1px solid !important;
+    border-radius: 35px;
+}
