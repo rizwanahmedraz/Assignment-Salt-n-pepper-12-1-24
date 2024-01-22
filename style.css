@@ -362,7 +362,7 @@ img{
     height: auto;
     background-color: black;
     color: white;
-    margin: 20px 15px 15px 0px;
+    margin: -6px 15px 15px 0px;
     align-items: center;
 }
 
@@ -437,4 +437,17 @@ img{
 .box-main-container{
     display: flex;
     flex-flow: column;
+}
+
+.footer-main-container{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: -25px 0px 0px 0px;
+}
+
+.footer-main-container>h2{
+
 }
